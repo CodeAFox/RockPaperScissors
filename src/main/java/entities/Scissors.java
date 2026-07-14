@@ -1,0 +1,9 @@
+package entities;
+
+public class Scissors implements PlayedObject
+{
+  @Override public boolean wonMatch(PlayedObject opponent)
+  {
+    return false;
+  }
+}
