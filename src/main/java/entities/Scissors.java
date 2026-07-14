@@ -4,6 +4,6 @@ public class Scissors implements PlayedObject
 {
   @Override public boolean wonMatch(PlayedObject opponent)
   {
-    return false;
+    return opponent instanceof Paper;
   }
 }

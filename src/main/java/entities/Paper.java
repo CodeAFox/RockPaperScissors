@@ -4,6 +4,6 @@ public class Paper implements PlayedObject
 {
   @Override public boolean wonMatch(PlayedObject opponent)
   {
-    return false;
+    return opponent instanceof Rock;
   }
 }
