@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Basic functionality added&#10;&#10;Added basic functionality to playable objects">
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/RockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Added tests&#10;&#10;Tests for Rock entity added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/ScissorsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="3GSTSarWhMYatpfNOjjbpHuSgm9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -119,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784051658001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added jUnit for testing">
+      <option name="closed" value="true" />
+      <created>1784053650206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784053650206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added tests&#10;&#10;Tests for Rock entity added">
+      <option name="closed" value="true" />
+      <created>1784053675139</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784053675139</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,10 +155,12 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added played objects&#10;&#10;Added the base for the played object entities, rock paper and scissors" />
     <MESSAGE value="Basic functionality added&#10;&#10;Added basic functionality to playable objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic functionality added&#10;&#10;Added basic functionality to playable objects" />
+    <MESSAGE value="Added jUnit for testing" />
+    <MESSAGE value="Added tests&#10;&#10;Tests for Rock entity added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests&#10;&#10;Tests for Rock entity added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RockPaperScissors$RockTest.ic" NAME="RockTest Coverage Results" MODIFIED="1784052469056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/RockPaperScissors$RockTest.ic" NAME="RockTest Coverage Results" MODIFIED="1784053600103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>entities.*</FILTER>
     </SUITE>
   </component>
