@@ -30,6 +30,8 @@ public class PlayerVSEntity implements GameMode
 
   public PlayedObject randomChoice()
   {
-    return choices.get(rand.nextInt(choices.size()));
+    PlayedObject systemChoice = choices.get(rand.nextInt(choices.size()));
+    System.out.println("The computer played: " + systemChoice);
+    return systemChoice;
   }
 }
