@@ -10,7 +10,7 @@ import java.util.Random;
 public class PlayerVSEntity implements GameMode
 {
   private final List<PlayedObject> choices;
-  private Random rand;
+  private final Random rand;
 
   public PlayerVSEntity()
   {
