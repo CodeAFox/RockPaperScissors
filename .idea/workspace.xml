@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Refactoring&#10;&#10;Renamed ScissorsTest" />
+    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Minor refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Paper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Paper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Scissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Scissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gamemodes/PlayerVSEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gamemodes/PlayerVSEntity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,10 +43,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3GSTSarWhMYatpfNOjjbpHuSgm9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,9 +58,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/IKCS-entities"
+    "git-widget-placeholder": "feature/IKCS-consolegame"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="gamemodes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="RockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RockPaperScissors" />
@@ -160,7 +172,39 @@
       <option name="project" value="LOCAL" />
       <updated>1784054551487</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Player vs Entity Gamemode">
+      <option name="closed" value="true" />
+      <created>1784059363729</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784059363729</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added tests&#10;&#10;Tests for PVE added">
+      <option name="closed" value="true" />
+      <created>1784059390924</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784059390924</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Minor refactoring">
+      <option name="closed" value="true" />
+      <created>1784059437521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784059437521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Minor refactoring">
+      <option name="closed" value="true" />
+      <created>1784059606367</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784059606367</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +227,10 @@
     <MESSAGE value="Added tests&#10;&#10;Tests for Scissors entity added" />
     <MESSAGE value="Added tests&#10;&#10;Tests for Paper entity added" />
     <MESSAGE value="Refactoring&#10;&#10;Renamed ScissorsTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring&#10;&#10;Renamed ScissorsTest" />
+    <MESSAGE value="Added Player vs Entity Gamemode" />
+    <MESSAGE value="Added tests&#10;&#10;Tests for PVE added" />
+    <MESSAGE value="Minor refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor refactoring" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RockPaperScissors$PaperTest.ic" NAME="PaperTest Coverage Results" MODIFIED="1784054404191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -195,5 +242,6 @@
     <SUITE FILE_PATH="coverage/RockPaperScissors$ScissorsTests.ic" NAME="ScissorsTests Coverage Results" MODIFIED="1784053820258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>entities.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/RockPaperScissors$PVETest.ic" NAME="PVETest Coverage Results" MODIFIED="1784059325144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
