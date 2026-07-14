@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Added tests&#10;&#10;Tests for Scissors entity added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/PaperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/ScissorsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entities/ScissorsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Refactoring&#10;&#10;Renamed ScissorsTest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/IKCS-entities&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/IKCS-entities"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="RockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RockPaperScissors" />
@@ -146,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784053849739</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added tests&#10;&#10;Tests for Paper entity added">
+      <option name="closed" value="true" />
+      <created>1784054522360</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784054522360</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactoring&#10;&#10;Renamed ScissorsTest">
+      <option name="closed" value="true" />
+      <created>1784054551487</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784054551487</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,9 +181,14 @@
     <MESSAGE value="Added jUnit for testing" />
     <MESSAGE value="Added tests&#10;&#10;Tests for Rock entity added" />
     <MESSAGE value="Added tests&#10;&#10;Tests for Scissors entity added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests&#10;&#10;Tests for Scissors entity added" />
+    <MESSAGE value="Added tests&#10;&#10;Tests for Paper entity added" />
+    <MESSAGE value="Refactoring&#10;&#10;Renamed ScissorsTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring&#10;&#10;Renamed ScissorsTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RockPaperScissors$PaperTest.ic" NAME="PaperTest Coverage Results" MODIFIED="1784054404191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>entities.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/RockPaperScissors$RockTest.ic" NAME="RockTest Coverage Results" MODIFIED="1784053600103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>entities.*</FILTER>
     </SUITE>
