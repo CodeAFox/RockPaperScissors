@@ -1,3 +1,5 @@
+package gamemodes;
+
 import entities.Paper;
 import entities.PlayedObject;
 import entities.Rock;
