@@ -1,7 +1,11 @@
+package gamemodes;
+
 import entities.Paper;
 import entities.PlayedObject;
 import entities.Rock;
 import entities.Scissors;
+import gamemodes.GameMode;
+import gamemodes.PlayerVSEntity;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
