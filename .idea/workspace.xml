@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Refactoring&#10;&#10;Renamed ScissorsTest" />
+    <list default="true" id="3f288fa0-3325-493f-9b05-e79ef08f540c" name="Changes" comment="Refactoring&#10;&#10;Renamed ScissorsTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GameMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerVSEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PVETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,10 +41,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3GSTSarWhMYatpfNOjjbpHuSgm9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/IKCS-entities"
+    "git-widget-placeholder": "dev"
   }
 }]]></component>
   <component name="RunManager">
@@ -195,5 +200,6 @@
     <SUITE FILE_PATH="coverage/RockPaperScissors$ScissorsTests.ic" NAME="ScissorsTests Coverage Results" MODIFIED="1784053820258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>entities.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/RockPaperScissors$PVETest.ic" NAME="PVETest Coverage Results" MODIFIED="1784059036540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
