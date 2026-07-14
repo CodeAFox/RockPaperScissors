@@ -6,4 +6,9 @@ public class Scissors implements PlayedObject
   {
     return opponent instanceof Paper;
   }
+
+  @Override public String toString()
+  {
+    return "Scissors";
+  }
 }
